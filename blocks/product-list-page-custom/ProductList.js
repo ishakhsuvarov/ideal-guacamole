@@ -34,7 +34,7 @@ class ProductCard extends Component {
     }
 
     if (!image) {
-      return html`<div class="no-image"></div>`;
+      image = window.location.origin + "/icons/placeholder.jpg"
     }
 
     const url = new URL(image);
