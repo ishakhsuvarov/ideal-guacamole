@@ -6,12 +6,13 @@
       "headers": {
         "cs": {
           "Magento-Store-Code": "main_website_store",
-          "Magento-Store-View-Code": "default",
           "Magento-Website-Code": "base",
           "x-api-key": "4dfa19c9fe6f4cccade55cc5b3da94f7",
           "Magento-Environment-Id": "f38a0de0-764b-41fa-bd2c-5bc2f3c7b39a",
+          "Magento-Store-View-Code": "default",
           "AC-Price-Book-ID": "base",
-          "AC-Scope-Locale": "default"
+          "AC-Scope-Locale": "default",
+          "AC-Channel-ID": "2006172a-11bf-4ca1-a01e-1bc896192c0e"
         }
       },
       "analytics": {
@@ -24,6 +25,26 @@
         "store-view-name": "Default Store View",
         "website-id": 1,
         "website-name": "Main Website"
+      }
+    },
+    "/us/": {
+      "headers": {
+        "cs": {
+          "Magento-Store-View-Code": "USA",
+          "AC-Price-Book-ID": "base::ac3478d69a3c81fa62e60f5c3696165a4e5e6ac4",
+          "AC-Scope-Locale": "USA",
+          "AC-Channel-ID": "e44d49ce-cdc8-4e4d-ba16-391c01c8f1c5"
+        }
+      }
+    },
+    "/ie/": {
+      "headers": {
+        "cs": {
+          "Magento-Store-View-Code": "Ireland",
+          "AC-Price-Book-ID": "base::fe5dbbcea5ce7e2988b8c69bcfdfde8904aabc1f",
+          "AC-Scope-Locale": "Ireland",
+          "AC-Channel-ID": "0b85935e-83c2-44fa-9ff5-445d78bd5f0d"
+        }
       }
     }
   }
